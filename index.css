@@ -1,0 +1,84 @@
+body {
+    background-image: url(919c5719579d855d1fa9e1c128a80d64.jpg);
+    background-size: 100%;
+    color: rgba(218, 218, 218, 0.952);
+}
+
+fieldset {
+    margin-top: none;
+    border-style: outset;
+    border-color: rgba(0, 47, 255, 0.651);
+    border-radius: 20px;
+    border-width: 4px;
+}
+
+legend {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;  
+    margin-top: none;
+    margin-bottom:0%;
+    text-align: right;
+    border-color: #460035;
+    border-style: double;
+    border-radius: 5px;
+}
+
+.input_position {
+    position: relative;
+}
+
+.main {
+    top: 50%; left: 50%;
+    padding: radius;
+    padding: 5px;
+    border: radius;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    background-color: rgba(7, 1, 6, 0.534); 
+}
+
+.input_position {
+    position: relative
+}
+
+#line1 {
+    color: rgba(255, 255, 255, 0.5);
+    border-style: dashed;
+    } #line2 {
+        color: rgba(61, 0, 36, 0.521);
+        } #line3 {
+            color: rgba(255, 255, 255, 0.5);
+            border-style: dashed;
+            }
+
+
+.inputClass {
+    background-color: rgba(7, 3, 32, 0.658);
+    border: none;
+    border-left: 1px solid rgba(0, 114, 190, 0.432);
+    border-bottom: 1px solid rgb(0, 114, 190);
+    color: rgb(130, 177, 221);
+    height: 12px;
+    width: 70%;
+    letter-spacing: 1px; 
+    font-size: 10px;
+    font-weight: 50;
+}
+
+#botao {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:10%;
+    margin-bottom: 0%;
+    padding: 15px;
+    border: 3px radius rgba(54, 0, 47, 0.89);
+    border-radius: 8%;
+    width: 80px; 
+    text-align: center;
+}
+
+label {
+    font-size: small;
+}

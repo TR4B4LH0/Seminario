@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>♦ Seminário Temático</title>
+
+</head>
+    <body>
+        <div class="main">
+            <form action="">
+                <fieldset>
+                    <legend> ♦ Seminário Temático </legend>  
+                    <p> <u>Preencha os campos abaixo:</u> </p>
+                    <div class="input_position">
+                        <label for="nome">Nome:</label> <br>
+                        <input type="text" name="nome" class="inputClass" required> 
+                    </div>
+                    
+                    <div class="input_position">
+                        <label for="cpf">CPF:</label> <br>
+                        <input type="text" name="cpf" class="inputClass" required> 
+                    </div>
+
+                    <div class="input_position">
+                        <label for="data_nasc">Data de Nascimento: </label> <br>
+                        <input type="date" name="data_nasc"  class="inputClass" required> 
+                    </div>
+
+                    <!-- Gênero --------------------------------------------------------->
+                            <p>Gênero:</p>
+                            <select name="select">
+                                <option value="valor1">Masculino</option>
+                                <option value="valor2">Feminino</option>
+                                <option value="valor3">Outro</option>
+                              </select>
+                              
+
+                    <hr id="line1">
+
+                    <!-- CONFIRMAR EMAIL ---------------------------------------------------->
+                    <div class="input_position">
+                        <label for="email">Email</label> <br>
+                        <input type="text" name="email" class="inputClass" required> <br>
+                    
+                    <div class="input_position">
+                        <label for="confirmar_email">Confirmar Email:</label> <br>
+                        <input type="text" name="confirmar_email" class="inputClass" required>
+                    
+                    <hr id="line2">
+
+                    <!-- CONFIRMAR SENHA ---------------------------------------------------->
+                    <div class="input_position">
+                        <label for="senha">Senha:</label> <br>
+                        <input type="text" name="senha" class="inputClass" required>
+                    
+                    <div class="input_position">
+                        <label for="senha">Confirmar senha:</label> <br>
+                        <input type="text" name="senha" class="inputClass" required>
+
+                    </div>    
+
+                    
+                    <!-- Telefone ------------------------------------------------------------->
+                    <div class="input_position">
+                        <label for="telefone">Nº de telefone:</label> <br>
+                        <input type="text name" name="telefone" class="inputClass" required>
+                    </div>
+                    <hr id="line3">
+                    
+                    <input id="botao" type="button" value="Enviar" required>
+                    
+                </div>
+            </fieldset>   
+        </form>
+    </body>
+</html> 
+
+        
+        <!--lembrar de adicionar
+        condição if / else para
+        confirmação da senha do
+        usuário -->
