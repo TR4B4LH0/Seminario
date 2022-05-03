@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="seminario.js" defer></script>
     <title>♦ Seminário Temático</title>
-
+    
 </head>
     <body>
         <div class="main">
-            <form action="">
+            <form name="cadastro" action="" onsubmit="senhaOk();" method="POST" accept-charset="UTF-8">
                 <fieldset>
                     <legend> ♦ Seminário Temático </legend>  
                     <p> <u>Preencha os campos abaixo:</u> </p>
@@ -26,57 +27,55 @@
 
                     <div class="input_position">
                         <label for="data_nasc">Data de Nascimento: </label> <br>
-                        <input type="date" name="data_nasc"  class="inputClass" required> 
+                        <input type="date" name="data_nasc" class="inputClass" required> 
                     </div>
 
                     <!-- Gênero --------------------------------------------------------->
-                        <p>Gênero:</p>
+                        <p> Gênero:
                             <select name="select" id="s3l3ct">
                                 <option value="valor1">Masculino</option>
                                 <option value="valor2">Feminino</option>
                                 <option value="valor3">Outro</option>
-                              </select>
+                              </select> 
+                        </p>
 
                     <hr id="line1">
 
                     <!-- CONFIRMAR EMAIL ---------------------------------------------------->
                     <div class="input_position">
-                        <label for="email">Email</label> <br>
-                        <input type="text" name="email" class="inputClass" required> <br>
+                        <label for="email">Email:</label> <br> 
+                        <input type="email" name="email" class="inputClass" id="email1" required> <br>
                     
                     <div class="input_position">
                         <label for="confirmar_email">Confirmar Email:</label> <br>
-                        <input type="text" name="confirmar_email" class="inputClass" required>
+                        <input type="email" name="confirmar_email" class="inputClass" id="email2" required>
                     
                     <hr id="line2">
 
                     <!-- CONFIRMAR SENHA ---------------------------------------------------->
                     <div class="input_position">
                         <label for="senha">Senha:</label> <br>
-                        <input type="text" name="senha" class="inputClass" required>
+                        <input type="password" name="senha" class="inputClass" id="senha" required onchange="confereSenha();">
                     
                     <div class="input_position">
-                        <label for="senha">Confirmar senha:</label> <br>
-                        <input type="text" name="senha" class="inputClass" required>
+                        <label for="senha2">Confirmar senha:</label> <br>
+                        <input type="password" name="senha2" class="inputClass" id="confirma" required onchange="confereSenha();">
 
                     </div>    
 
                     <hr id="line3">
-
 
                     <hr id="line4">
 
                     <!-- Telefone ------------------------------------------------------------->
                     <div class="input_position">
                         <label for="telefone">Nº de telefone:</label> <br>
-                        <input type="text name" name="telefone" class="inputClass" required>
+                        <input type="text name" name="telefone" class="inputClass" id="telefone" required>
                     </div>
 
                     <hr id="line5">
                     
-                    <div id="botao">
-                        <input id="botao" type="button" value="Enviar">
-                    </div>
+                    <input id="botao" type="submit" value="Finalizar"> 
 
                 </div>
             </fieldset>   

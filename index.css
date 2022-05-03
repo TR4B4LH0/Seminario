@@ -36,12 +36,8 @@ legend {
     border: radius;
     transform: translate(-50%,-50%);
     position: fixed;
-    background-color: rgba(7, 1, 6, 0.534);
+    background-color: rgba(2, 21, 48, 0.623);
     width: 400px;
-}
-
-.input_position {
-    position: relative
 }
 
 #line1 {
@@ -61,7 +57,7 @@ legend {
 
 
 .inputClass {
-    background-color: rgba(7, 3, 32, 0.658);
+    background-color: rgba(24, 0, 177, 0.247);
     border-left-color: rgb(0, 89, 255);
     border-bottom-color: rgb(0, 89, 255);
     border-right-color: #460035;
@@ -69,7 +65,7 @@ legend {
     color: rgb(130, 177, 221);
     height: 12px;
     width: 80%;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 50;
     letter-spacing: 1px; 
 }
@@ -94,5 +90,5 @@ legend {
 }
 
 label {
-    font-size: small;
+    font-size: medium;
 }
