@@ -1,4 +1,0 @@
-# Seminario
-
-
-Nada a declarar.
